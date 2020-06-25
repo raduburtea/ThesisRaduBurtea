@@ -1,0 +1,23 @@
+RUN 0  - REPLAY BUFFFER
+
+run 1
+for n in range(1,N):
+    if n <= 10:
+        eps -= 0.05
+    else:
+        eps = 1/np.sqrt(n)
+    if eps <= 0.05:
+        eps = 0.05
+
+GAMMA = 0.8
+
+RUN 2
+for n in range(1,N):
+    if n <= 10:
+        eps -= 0.05
+    else:
+        eps = 1/np.sqrt(n)
+    if eps <= 0.05:
+        eps = 0.05
+
+GAMMA = 0.99

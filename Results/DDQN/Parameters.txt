@@ -1,0 +1,30 @@
+RUN 1
+if n <= 10:
+        eps -= 0.05
+    else:
+        eps = 1/np.sqrt(n)
+    if eps <= 0.05:
+        eps = 0.05
+tau = 0.2
+
+Run 2
+tau = 0.2
+eps -0.02
+
+Run 3 - still not plotted
+if n<=10:
+        eps= max(0, eps-0.05)
+    elif eps <= 0.05:
+        eps = 0.05
+    else:
+        eps = 1 / np.sqrt(n+10)
+tau same
+
+Run4 
+if n<=10:
+        eps= max(0, eps-0.05)
+    elif eps <= 0.05:
+        eps = 0.05
+    else:
+        eps = 1 / np.sqrt(n+10)
+tau 0.1 0.9
