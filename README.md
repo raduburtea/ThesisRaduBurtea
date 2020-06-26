@@ -9,4 +9,4 @@ In the DDQN folder all the implementations of the Double Deep Q Learning algorit
 
 The DDPG folder contains the implementations of the Deep Deterministic Policy Gradients algorithm. The folder DDPGOriginalVersion contains the original code inspired by Yan Panlau. The script DDPGLunarNEW.py contains the implementation of the new DDPG algorithm on the LunarLanderContinuous-v2 Environment and the script DDPGRacingNEW.py contains the implementation for the CarRacing-v0 environment.
 
-In the Evolutionary folder the script for the evolutionary algorithm can be found and the results folder contains all the graphs used in the paper and the script (graphs.py) that was used to generate them.
+In the Evolutionary folder the script for the evolutionary algorithm can be found and the Results folder contains all the graphs used in the paper and the script (graphs.py) that was used to generate them.
